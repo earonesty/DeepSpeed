@@ -26,7 +26,7 @@ author = 'Microsoft'
 
 # The full version, including alpha/beta/rc tags
 with open("../../../version.txt", "r") as f:
-    release = f.readline().rstrip()
+    release = f.readline(5_000_000).rstrip()
 
 master_doc = 'index'
 
